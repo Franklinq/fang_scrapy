@@ -1,4 +1,3 @@
 <h1>Python  爬虫</h1>
-<h3>使用scrapy框架 对<a href="https://www1.fang.com/" title="title属性">房天下</a>的房源信息进行爬取数据 存储到mysql数据库和csv文件中。</h3>
-</hr>
+使用scrapy框架 对<a href="https://www1.fang.com/" title="title属性">房天下</a>的房源信息进行爬取数据 存储到mysql数据库和csv文件中。
 主要对全国城市页面、新房页面、二手房页面、租房页面、商铺出租页面、商铺出售页面、我的收藏页面的数据进行爬取，实现模拟登录、反爬虫、去重，数据存储于数据库和cvs文件中。
