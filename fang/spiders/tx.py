@@ -30,9 +30,9 @@ class TxSpider(scrapy.Spider):
         driver.execute_script(js_account)
 
         driver.find_element_by_id("username").click()
-        username=driver.find_element_by_xpath("//input[@id='username']").send_keys('eqws')
+        username=driver.find_element_by_xpath("//input[@id='username']").send_keys('name')#name 写自己的账号名
         driver.find_element_by_id("password").click()
-        password = driver.find_element_by_xpath("//input[@id='password']").send_keys('123456zx')
+        password = driver.find_element_by_xpath("//input[@id='password']").send_keys('password')#password 写自己密码
 
         submit=driver.find_element_by_xpath("//button[@id='loginWithPswd']")
         submit.click()
